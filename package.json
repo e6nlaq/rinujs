@@ -25,6 +25,7 @@
         "format": "prettier --write **/*.ts",
         "build": "tsc --project tsconfig.build.json",
         "docs": "typedoc --out ./docs/ ./src/",
-        "lint": "eslint ./src/**/*.ts ./test/**/*.ts"
+        "lint": "eslint ./src/**/*.ts ./test/**/*.ts",
+        "test": "vitest run"
     }
 }
