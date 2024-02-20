@@ -46,7 +46,7 @@ describe('sample', () => {
     });
 
     describe('error', () => {
-        test('no rinu.cf,jp', () => {
+        test('other site', () => {
             expect(is_rinu('https://example.com')).toBeFalsy();
         });
 
